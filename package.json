@@ -1,7 +1,6 @@
 {
 	"type": "module",
 	"devDependencies": {
-		"lodash": "^4.17.21",
 		"yaml": "^2.2.1"
 	}
 }
