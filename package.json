@@ -1,6 +1,10 @@
 {
 	"type": "module",
 	"devDependencies": {
+		"vitest": "^0.28.5",
 		"yaml": "^2.2.1"
-	}
+	},
+	"scripts": {
+    "test": "vitest"
+  }
 }
