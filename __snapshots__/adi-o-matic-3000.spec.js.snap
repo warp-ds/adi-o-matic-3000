@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`adi-o-matic 3000 generates correct yaml 1`] = `
+"color:
+  token:
+    of:
+      greatness: blue-500
+      doom: red-500
+    _: foo
+  button:
+    primary:
+      wombat:
+        text: aqua-600
+"
+`;

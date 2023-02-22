@@ -1,7 +1,10 @@
 {
 	"type": "module",
 	"devDependencies": {
-		"lodash": "^4.17.21",
+		"vitest": "^0.28.5",
 		"yaml": "^2.2.1"
-	}
+	},
+	"scripts": {
+    "test": "vitest"
+  }
 }
