@@ -6,7 +6,7 @@ function adiOMatic3000(csv) {
   const lines = csv.split('\n')
   for (const line of lines) {
     const [name, value] = line.split(',')
-    const segments = name.split('-')
+    const segments = name.split(/[-|.]+/)
 
     segments.reduce((acc, currentValue, index) => {
       const lastItem = index + 1 === segments.length;

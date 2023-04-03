@@ -11,5 +11,7 @@ exports[`adi-o-matic 3000 generates correct yaml 1`] = `
     primary:
       wombat:
         text: aqua-600
+        wow:
+          text: aqua-600
 "
 `;
